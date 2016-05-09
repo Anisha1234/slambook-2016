@@ -10,8 +10,8 @@
       overflow-y: hidden;
   }
   .container{
-    width: 1300px;
-    height:700px;
+    width: 950px;
+    height: 700px;
     overflow-y: scroll;
     position: fixed;
     padding: center;
@@ -43,12 +43,6 @@
     width: 100px;
   }
   .jumbotron{
-    background-color:rgba(199, 193, 193, 0.38);
-    height: 920px;
+    background-color:rgba(199, 193, 193, 0.52);
   }
-  .bs-example{
-      margin: 20px;
-      width: 100px;
-      position: relative;
-    }
   
