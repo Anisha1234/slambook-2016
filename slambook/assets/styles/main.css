@@ -1,5 +1,5 @@
 #bg{
-  background-image: url("../image/back1.jpg");
+  background-image: url("/images/back1.jpg");
   background-repeat: no-repeat;
   width: 100%;
   position: fixed;
@@ -10,7 +10,7 @@
       overflow-y: hidden;
   }
   .container{
-    width: 650px;
+    width: 950px;
     height: 700px;
     overflow-y: scroll;
     position: fixed;
@@ -39,3 +39,9 @@
         font-family: sans-serif;
         font-color: #000000;
       }
+  .btn-lg{
+    width: 100px;
+  }
+  .jumbotron{
+    background-color:rgba(199, 193, 193, 0.52);
+  }
