@@ -1,0 +1,41 @@
+#bg{
+  background-image: url("../image/back1.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  position: fixed;
+  background-size: cover;
+  height: 100%;}
+  body {
+      position: relative;
+      overflow-y: hidden;
+  }
+  .container{
+    width: 650px;
+    height: 700px;
+    overflow-y: scroll;
+    position: fixed;
+    padding: center;
+}
+  ul.nav-pills {
+      top: 20px;
+      position: fixed;
+  }
+  div.col-sm-9 div {
+      height: 850px;
+      font-size: 28px;
+      position: inherit;  }
+  #section1 { color: #fff;
+            background-color: rgba(220, 234, 239, 0.31);
+            color: #000000;
+            text-align: center;}
+ 
+  @media screen and (max-width: 100px) {
+    #section1 {
+        margin-left: 150px;
+        margin-right: 150px;
+
+    }
+    #section1 {
+        font-family: sans-serif;
+        font-color: #000000;
+      }
